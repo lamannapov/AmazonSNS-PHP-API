@@ -61,6 +61,9 @@ Available methods:
 * `setTopicAttributes($topicArn, $attrName, $attrValue)`
 * `subscribe($topicArn, $protocol, $endpoint)`
 * `unsubscribe($subscriptionArn)`
+* `createPlatformEndpoint($platformApplicationArn, $token, $userData)`
+* `deleteEndpoint($deviceArn)`
+* `publishToEndpoint($deviceArn,$message)`
 
 To set the API region (us-east-1, us-west-2, us-west-1, eu-west-1, etc):
 
